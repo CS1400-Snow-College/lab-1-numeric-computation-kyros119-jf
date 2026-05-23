@@ -86,3 +86,23 @@ Console.WriteLine(s / t);
 decimal u = 1.0M;
 decimal v = 3.0M;
 Console.WriteLine(u / v);
+
+// This is my Own formula
+
+
+int maincharhealthbar = 1000;
+int maincharbasicattack = 10;
+int attackpower = 10;
+int powerbuff = 2;
+
+
+int opponentattack = 2;
+decimal opponentpowerbuff = .5M;
+int opponenthealth = 500;
+
+int specialmove = (maincharbasicattack + attackpower) * powerbuff;
+
+Console.WriteLine(specialmove);
+
+int opponenthurt = opponenthealth - specialmove;
+Console.WriteLine(opponenthurt);
