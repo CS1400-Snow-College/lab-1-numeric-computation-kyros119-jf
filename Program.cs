@@ -54,3 +54,24 @@ Console.WriteLine($"The range of intergers is {min} to {max}");
 
 int what = max + 3;
 Console.WriteLine($"An exmaple of overflow: {what}");
+
+
+double k = 5;
+double l = 3;
+double m = 2;
+double n = (k + l) /m;
+Console.WriteLine(n);
+
+double o = 19;
+double p = 23;
+double q = 8;
+double r = (o + p) /q;
+Console.WriteLine(r);
+
+double maxdouble = double.MaxValue;
+double mindouble = double.MinValue;
+Console.WriteLine($"The Range of double is {mindouble} and {maxdouble}");
+
+double third = 1.0 / 3.0;
+Console.WriteLine(third);
+
