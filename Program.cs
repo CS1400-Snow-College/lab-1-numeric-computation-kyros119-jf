@@ -75,3 +75,14 @@ Console.WriteLine($"The Range of double is {mindouble} and {maxdouble}");
 double third = 1.0 / 3.0;
 Console.WriteLine(third);
 
+decimal mindecimal = decimal.MinValue;
+decimal maxdecimal = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {mindecimal} and {maxdecimal}");
+
+double s = 1.0;
+double t = 3.0;
+Console.WriteLine(s / t);
+
+decimal u = 1.0M;
+decimal v = 3.0M;
+Console.WriteLine(u / v);
